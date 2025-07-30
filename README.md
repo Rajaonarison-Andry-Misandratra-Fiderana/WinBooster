@@ -1,68 +1,46 @@
-# WinBooster
-Boost Windows 11 speed &amp; privacy
+# win11booster
 
-# ⚡ Network Boost for Windows 11
-
-This script is a complete system and network optimizer for Windows 11. It focuses on:
-
-- ⚙️ **Network performance** (faster DNS, reduced latency, increased throughput)
-- 🔐 **Privacy & telemetry reduction**
-- 🧹 **Removal of unnecessary services and apps**
-- 🚀 **System performance tuning**
-
-> 🛑 WARNING: This script is aggressive. Run it only on personal systems or non-critical environments. Some features like Xbox integration, Cortana, and certain background services will be disabled.
+`win11booster` is a versatile Windows 11 optimization tool delivered as a batch script designed to improve your system’s **network performance**, **privacy**, and **overall responsiveness**.
 
 ---
 
-## ✅ Features
+## Versions
 
-### 🔧 Network Optimizations
-- Enables TCP AutoTuning
-- Disables Windows TCP heuristics
-- Enables ECN (Explicit Congestion Notification)
-- Enables RSS (Receive-Side Scaling) and DCA
-- Sets congestion control algorithm to `CTCP`
-- Disables Nagle's Algorithm (via registry)
-- Sets fast DNS (Cloudflare + Google)
-- Flushes DNS cache
-- Disables Delivery Optimization (P2P Windows updates)
+### Normal version
 
-### 🔒 Privacy & Telemetry
-- Disables Microsoft Telemetry & Data Collection
-- Disables DiagTrack and dmwappushservice
-- Blocks Cortana and Web Search
-- Disables PowerShell telemetry reporting
+- Optimizes TCP/IP stack and network parameters for better throughput and lower latency.
+- Disables common telemetry services.
+- Removes some built-in bloatware and unnecessary services.
+- Applies basic system performance tweaks such as UI speedups and power plan adjustments.
+- Intended for users seeking solid improvements without heavy feature removal.
 
-### 🗑️ Bloatware Removal
-- Removes dozens of built-in UWP apps
-- Disables low-priority services like `Fax`, `RemoteRegistry`, `WSearch`, `MapsBroker`, etc.
+### Aggressive version
 
-### ⚙️ System Tuning
-- Enables Ultimate Performance power plan
-- Reduces menu delay and UI animations
-- Cleans temporary files
+- Includes all normal optimizations, plus:
+- Fully disables telemetry, diagnostic, and tracking services.
+- Removes ads and suggestions from the Start Menu and lock screen.
+- Aggressively disables or removes more services (Xbox, Edge Update, Retail Demo, Connected Devices).
+- Cleans up a wider set of UWP apps including Microsoft Edge UWP and Xbox apps.
+- Disables notifications and Windows tips for a cleaner, distraction-free experience.
+- Intended for advanced users who want maximum privacy and performance at the cost of some Windows features.
 
 ---
 
-## 🧪 How to Use
+## Usage
 
-1. Save the file as `WinBooster.bat`
-2. Right-click > Run as Administrator
-3. Wait for the script to finish
-4. Reboot your system to apply changes
-
----
-
-## 🌀 Rollback / Undo
-
-This version does not include a rollback script. To restore changes:
-- Use a system restore point before applying
-- Or ask for a `rollback.bat` version to reverse all actions
+1. Download or save the desired script:
+   - `win11booster.bat` (normal)
+   - `win11booster-aggressive.bat` (aggressive)
+2. Right-click the file and select **Run as Administrator**.
+3. Wait for completion.
+4. Reboot your system to apply all changes.
 
 ---
 
-## 📘 License
+## Disclaimer
 
-MIT – Use freely, at your own risk.
+This script modifies system and network settings extensively.  
+**Create a system restore point before running.**  
+Use the aggressive version only if you are comfortable with disabling certain Windows features and apps.
 
 ---
