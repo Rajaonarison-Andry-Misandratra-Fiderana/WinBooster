@@ -1,46 +1,50 @@
-# win11booster
+# 🚀 win11booster
 
-`win11booster` is a versatile Windows 11 optimization tool delivered as a batch script designed to improve your system’s **network performance**, **privacy**, and **overall responsiveness**.
-
----
-
-## Versions
-
-### Normal version
-
-- Optimizes TCP/IP stack and network parameters for better throughput and lower latency.
-- Disables common telemetry services.
-- Removes some built-in bloatware and unnecessary services.
-- Applies basic system performance tweaks such as UI speedups and power plan adjustments.
-- Intended for users seeking solid improvements without heavy feature removal.
-
-### Aggressive version
-
-- Includes all normal optimizations, plus:
-- Fully disables telemetry, diagnostic, and tracking services.
-- Removes ads and suggestions from the Start Menu and lock screen.
-- Aggressively disables or removes more services (Xbox, Edge Update, Retail Demo, Connected Devices).
-- Cleans up a wider set of UWP apps including Microsoft Edge UWP and Xbox apps.
-- Disables notifications and Windows tips for a cleaner, distraction-free experience.
-- Intended for advanced users who want maximum privacy and performance at the cost of some Windows features.
+**win11booster** is a powerful yet easy-to-use batch script designed to optimize your Windows 11 system for **better network performance**, **enhanced privacy**, and **improved overall responsiveness**.
 
 ---
 
-## Usage
+## ⚙️ Versions Available
 
-1. Download or save the desired script:
-   - `win11booster.bat` (normal)
-   - `win11booster-aggressive.bat` (aggressive)
-2. Right-click the file and select **Run as Administrator**.
-3. Wait for completion.
-4. Reboot your system to apply all changes.
+### 🔹 Normal Version
+- Optimize TCP/IP stack for faster and more reliable network connections
+- Disable common telemetry and tracking services
+- Remove selected built-in bloatware and unnecessary services
+- Apply essential system tweaks to speed up UI responsiveness and power management  
+Ideal for users seeking **solid improvements** without compromising core Windows features.
+
+### 🔥 Aggressive Version
+- Includes *all* Normal Version optimizations, plus:  
+- Completely disable telemetry, diagnostics, and tracking services  
+- Remove ads, suggestions, and tips from Start Menu and Lock Screen  
+- Aggressively disable or remove additional services (Xbox, Edge Update, Retail Demo, Connected Devices)  
+- Remove a wider set of built-in apps (including Microsoft Edge UWP and Xbox apps)  
+- Disable all Windows notifications and tips for a distraction-free experience  
+Best suited for **advanced users** who want **maximum privacy and speed**, accepting some Windows features will be disabled.
 
 ---
 
-## Disclaimer
+## 🛠️ How to Use
 
-This script modifies system and network settings extensively.  
-**Create a system restore point before running.**  
-Use the aggressive version only if you are comfortable with disabling certain Windows features and apps.
+1. Download or save the preferred script:  
+   - `win11booster.bat` (Normal)  
+   - `win11booster-aggressive.bat` (Aggressive)  
+2. Right-click the script file and select **Run as Administrator**  
+3. Wait for the script to complete its work  
+4. **Reboot your PC** to apply all changes
+
+---
+
+## ⚠️ Important Notes
+
+- This script modifies critical system settings and disables many services.  
+- **Always create a system restore point before running the script.**  
+- The Aggressive version may disable features you rely on; use with caution.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. Use at your own risk.
 
 ---
