@@ -46,7 +46,7 @@ This script is a complete system and network optimizer for Windows 11. It focuse
 
 ## 🧪 How to Use
 
-1. Save the file as `network-boost.bat`
+1. Save the file as `WinBooster.bat`
 2. Right-click > Run as Administrator
 3. Wait for the script to finish
 4. Reboot your system to apply changes
